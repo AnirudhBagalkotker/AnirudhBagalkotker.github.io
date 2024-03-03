@@ -12,4 +12,5 @@ mkdir ../website/dist
 mkdir ../website/content
 cp -r content/* ../website/content
 cp -r public/* ../website/dist
+cp -r public/* ../docs
 npx quartz build --serve
